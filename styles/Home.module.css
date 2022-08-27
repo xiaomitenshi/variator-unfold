@@ -84,3 +84,79 @@
     flex-direction: column;
   }
 }
+
+.introtext {
+  color: black;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 4px;
+  color: white;
+}
+
+.frontpage {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2.5rem;
+  flex-direction: row;
+  color: white;
+}
+
+.imghe {
+  display: flex;
+  justify-content: end;
+  margin-left: 25%;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/logpro-f2137.appspot.com/o/2.png?alt=media&token=ed4a7941-4801-46d1-99dc-c8fe41978bfe");
+}
+
+.subheading {
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: large;
+  padding-left: 2.7rem;
+  color: white;
+}
+
+.button {
+  background-color: rgb(239, 104, 127);
+  font-size: 25px;
+  margin-top: 2rem;
+  width: max-content;
+  padding: 1.5rem;
+  border-radius: 30px;
+  margin-left: 2.7rem;
+  cursor:pointer;
+}
+
+.re {
+  color: white;
+  font-size: 5rem;
+  font-weight: 430;
+  line-height: 4px;
+  text-align: center;
+}
+
+.rear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-size: 90%;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/logpro-f2137.appspot.com/o/2.png?alt=media&token=ed4a7941-4801-46d1-99dc-c8fe41978bfe");
+}
+
+.button2 {
+  background-color: rgb(239, 104, 127);
+  font-size: 25px;
+  margin-top: 2rem;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 30px;
+  cursor:pointer;
+  color: white;
+  font-weight: 500;
+}
