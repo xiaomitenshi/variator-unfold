@@ -14,3 +14,64 @@ a {
 * {
   box-sizing: border-box;
 }
+
+header {
+  background-color: #0a0800;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  /* padding-bottom: ; */
+}
+
+.head1 {
+  margin: 0px 0px 5px 180px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.head1:hover {
+  color: #ff00e5;
+}
+
+.head2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.head2:hover {
+  color: #ff00e5;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+form {
+  text-align: center;
+}
